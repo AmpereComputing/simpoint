@@ -1,12 +1,12 @@
 $(MAKE) = gmake
 
-Simpoint:
+simpoint:
 	$(MAKE) -C analysiscode
 
 clean:
 	$(MAKE) -C analysiscode clean
 	rm -f bin/simpoint
 
-.PHONY: clean Simpoint
+.PHONY: clean simpoint
 
 

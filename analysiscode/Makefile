@@ -1,4 +1,4 @@
-CPPFLAGS = -Wall -pedantic -pedantic-errors -O3
+CPPFLAGS = -std=c++98 -Wall -pedantic -pedantic-errors -O3
 
 CXX = g++
 
